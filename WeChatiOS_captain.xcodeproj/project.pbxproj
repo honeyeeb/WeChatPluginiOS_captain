@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		714DF777201DA822009F3D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714DF776201DA822009F3D8C /* Foundation.framework */; };
+		714DF77F201DA822009F3D8C /* WeChatiOS_captain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 714DF77E201DA822009F3D8C /* WeChatiOS_captain.mm */; };
+		714DF7A6201DA87A009F3D8C /* TKToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF78A201DA87A009F3D8C /* TKToast.m */; };
+		714DF7A7201DA87A009F3D8C /* zhIconLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF78B201DA87A009F3D8C /* zhIconLabel.h */; };
+		714DF7A8201DA87A009F3D8C /* TKMultiSelectContactsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF78C201DA87A009F3D8C /* TKMultiSelectContactsViewController.h */; };
+		714DF7A9201DA87A009F3D8C /* zhFullView.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF78D201DA87A009F3D8C /* zhFullView.h */; };
+		714DF7AA201DA87A009F3D8C /* TKRobotConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF78E201DA87A009F3D8C /* TKRobotConfig.m */; };
+		714DF7AB201DA87A009F3D8C /* TKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF78F201DA87A009F3D8C /* TKSettingViewController.m */; };
+		714DF7AC201DA87A009F3D8C /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF790201DA87A009F3D8C /* UIView+Layout.m */; };
+		714DF7AD201DA87A009F3D8C /* TKEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF792201DA87A009F3D8C /* TKEditViewController.h */; };
+		714DF7AE201DA87A009F3D8C /* TKChatRoomSensitiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF793201DA87A009F3D8C /* TKChatRoomSensitiveViewController.m */; };
+		714DF7AF201DA87A009F3D8C /* UIScreen+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF794201DA87A009F3D8C /* UIScreen+Extend.h */; };
+		714DF7B0201DA87A009F3D8C /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF795201DA87A009F3D8C /* UIColor+Extend.m */; };
+		714DF7B1201DA87A009F3D8C /* EmoticonGameCheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF796201DA87A009F3D8C /* EmoticonGameCheat.m */; };
+		714DF7B2201DA87A009F3D8C /* zhPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF797201DA87A009F3D8C /* zhPopupController.m */; };
+		714DF7B3201DA87A009F3D8C /* WeChatRobot.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF798201DA87A009F3D8C /* WeChatRobot.h */; };
+		714DF7B4201DA87A009F3D8C /* zhFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF799201DA87A009F3D8C /* zhFullView.m */; };
+		714DF7B5201DA87A009F3D8C /* zhIconLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF79A201DA87A009F3D8C /* zhIconLabel.m */; };
+		714DF7B6201DA87A009F3D8C /* TKMultiSelectContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF79B201DA87A009F3D8C /* TKMultiSelectContactsViewController.m */; };
+		714DF7B7201DA87A009F3D8C /* TKToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF79C201DA87A009F3D8C /* TKToast.h */; };
+		714DF7B8201DA87A009F3D8C /* TKRobotConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF79D201DA87A009F3D8C /* TKRobotConfig.h */; };
+		714DF7B9201DA87A009F3D8C /* UIScreen+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF79E201DA87A009F3D8C /* UIScreen+Extend.m */; };
+		714DF7BA201DA87A009F3D8C /* TKChatRoomSensitiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF79F201DA87A009F3D8C /* TKChatRoomSensitiveViewController.h */; };
+		714DF7BB201DA87A009F3D8C /* TKEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DF7A0201DA87A009F3D8C /* TKEditViewController.m */; };
+		714DF7BC201DA87A009F3D8C /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF7A1201DA87A009F3D8C /* UIView+Layout.h */; };
+		714DF7BD201DA87A009F3D8C /* TKSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF7A2201DA87A009F3D8C /* TKSettingViewController.h */; };
+		714DF7BE201DA87A009F3D8C /* zhPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF7A3201DA87A009F3D8C /* zhPopupController.h */; };
+		714DF7BF201DA87A009F3D8C /* EmoticonGameCheat.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF7A4201DA87A009F3D8C /* EmoticonGameCheat.h */; };
+		714DF7C0201DA87A009F3D8C /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 714DF7A5201DA87A009F3D8C /* UIColor+Extend.h */; };
+		714DF7C2201DB7AF009F3D8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714DF7C1201DB7AE009F3D8C /* UIKit.framework */; };
+		718EC537201EE83C0096E960 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 718EC3EA201EE3CE0096E960 /* libz.tbd */; };
+		718EC538201EE8410096E960 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 718EC3EC201EE3D70096E960 /* libsqlite3.tbd */; };
+		718EC53A201EE8890096E960 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718EC539201EE8890096E960 /* ImageIO.framework */; };
+		71A749FB201DBDE900A83A56 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A749FA201DBDE900A83A56 /* CFNetwork.framework */; };
+		71A749FD201DBDF500A83A56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A749FC201DBDF500A83A56 /* CoreGraphics.framework */; };
+		71A749FF201DBDFA00A83A56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A749FE201DBDFA00A83A56 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		714DF773201DA822009F3D8C /* WeChatiOS_captain.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WeChatiOS_captain.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		714DF776201DA822009F3D8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		714DF77B201DA822009F3D8C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		714DF77D201DA822009F3D8C /* WeChatiOS_captain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeChatiOS_captain-Prefix.pch"; sourceTree = "<group>"; };
+		714DF77E201DA822009F3D8C /* WeChatiOS_captain.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatiOS_captain.mm; sourceTree = "<group>"; };
+		714DF783201DA822009F3D8C /* WeChatiOS_captain.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WeChatiOS_captain.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WeChatiOS_captain.plist; sourceTree = "<group>"; };
+		714DF78A201DA87A009F3D8C /* TKToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKToast.m; sourceTree = "<group>"; };
+		714DF78B201DA87A009F3D8C /* zhIconLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhIconLabel.h; sourceTree = "<group>"; };
+		714DF78C201DA87A009F3D8C /* TKMultiSelectContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMultiSelectContactsViewController.h; sourceTree = "<group>"; };
+		714DF78D201DA87A009F3D8C /* zhFullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhFullView.h; sourceTree = "<group>"; };
+		714DF78E201DA87A009F3D8C /* TKRobotConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRobotConfig.m; sourceTree = "<group>"; };
+		714DF78F201DA87A009F3D8C /* TKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSettingViewController.m; sourceTree = "<group>"; };
+		714DF790201DA87A009F3D8C /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		714DF792201DA87A009F3D8C /* TKEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEditViewController.h; sourceTree = "<group>"; };
+		714DF793201DA87A009F3D8C /* TKChatRoomSensitiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKChatRoomSensitiveViewController.m; sourceTree = "<group>"; };
+		714DF794201DA87A009F3D8C /* UIScreen+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extend.h"; sourceTree = "<group>"; };
+		714DF795201DA87A009F3D8C /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		714DF796201DA87A009F3D8C /* EmoticonGameCheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonGameCheat.m; sourceTree = "<group>"; };
+		714DF797201DA87A009F3D8C /* zhPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhPopupController.m; sourceTree = "<group>"; };
+		714DF798201DA87A009F3D8C /* WeChatRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRobot.h; sourceTree = "<group>"; };
+		714DF799201DA87A009F3D8C /* zhFullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhFullView.m; sourceTree = "<group>"; };
+		714DF79A201DA87A009F3D8C /* zhIconLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhIconLabel.m; sourceTree = "<group>"; };
+		714DF79B201DA87A009F3D8C /* TKMultiSelectContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMultiSelectContactsViewController.m; sourceTree = "<group>"; };
+		714DF79C201DA87A009F3D8C /* TKToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKToast.h; sourceTree = "<group>"; };
+		714DF79D201DA87A009F3D8C /* TKRobotConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRobotConfig.h; sourceTree = "<group>"; };
+		714DF79E201DA87A009F3D8C /* UIScreen+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extend.m"; sourceTree = "<group>"; };
+		714DF79F201DA87A009F3D8C /* TKChatRoomSensitiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKChatRoomSensitiveViewController.h; sourceTree = "<group>"; };
+		714DF7A0201DA87A009F3D8C /* TKEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEditViewController.m; sourceTree = "<group>"; };
+		714DF7A1201DA87A009F3D8C /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		714DF7A2201DA87A009F3D8C /* TKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSettingViewController.h; sourceTree = "<group>"; };
+		714DF7A3201DA87A009F3D8C /* zhPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhPopupController.h; sourceTree = "<group>"; };
+		714DF7A4201DA87A009F3D8C /* EmoticonGameCheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonGameCheat.h; sourceTree = "<group>"; };
+		714DF7A5201DA87A009F3D8C /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		714DF7C1201DB7AE009F3D8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		718EC3EA201EE3CE0096E960 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		718EC3EC201EE3D70096E960 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		718EC539201EE8890096E960 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		71A749FA201DBDE900A83A56 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		71A749FC201DBDF500A83A56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71A749FE201DBDFA00A83A56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		714DF76F201DA822009F3D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718EC53A201EE8890096E960 /* ImageIO.framework in Frameworks */,
+				718EC538201EE8410096E960 /* libsqlite3.tbd in Frameworks */,
+				718EC537201EE83C0096E960 /* libz.tbd in Frameworks */,
+				71A749FF201DBDFA00A83A56 /* QuartzCore.framework in Frameworks */,
+				71A749FD201DBDF500A83A56 /* CoreGraphics.framework in Frameworks */,
+				71A749FB201DBDE900A83A56 /* CFNetwork.framework in Frameworks */,
+				714DF7C2201DB7AF009F3D8C /* UIKit.framework in Frameworks */,
+				714DF777201DA822009F3D8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		714DF769201DA822009F3D8C = {
+			isa = PBXGroup;
+			children = (
+				714DF778201DA822009F3D8C /* WeChatiOS_captain */,
+				714DF775201DA822009F3D8C /* Frameworks */,
+				714DF774201DA822009F3D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		714DF774201DA822009F3D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				714DF773201DA822009F3D8C /* WeChatiOS_captain.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		714DF775201DA822009F3D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				718EC539201EE8890096E960 /* ImageIO.framework */,
+				718EC3EC201EE3D70096E960 /* libsqlite3.tbd */,
+				718EC3EA201EE3CE0096E960 /* libz.tbd */,
+				71A749FE201DBDFA00A83A56 /* QuartzCore.framework */,
+				71A749FC201DBDF500A83A56 /* CoreGraphics.framework */,
+				71A749FA201DBDE900A83A56 /* CFNetwork.framework */,
+				714DF7C1201DB7AE009F3D8C /* UIKit.framework */,
+				714DF776201DA822009F3D8C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		714DF778201DA822009F3D8C /* WeChatiOS_captain */ = {
+			isa = PBXGroup;
+			children = (
+				714DF77E201DA822009F3D8C /* WeChatiOS_captain.mm */,
+				714DF789201DA87A009F3D8C /* src */,
+				714DF779201DA822009F3D8C /* Package */,
+				714DF77C201DA822009F3D8C /* Supporting Files */,
+			);
+			path = WeChatiOS_captain;
+			sourceTree = "<group>";
+		};
+		714DF779201DA822009F3D8C /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				714DF77A201DA822009F3D8C /* DEBIAN */,
+				714DF780201DA822009F3D8C /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		714DF77A201DA822009F3D8C /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				714DF77B201DA822009F3D8C /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		714DF77C201DA822009F3D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				714DF77D201DA822009F3D8C /* WeChatiOS_captain-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		714DF780201DA822009F3D8C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				714DF781201DA822009F3D8C /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		714DF781201DA822009F3D8C /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				714DF782201DA822009F3D8C /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		714DF782201DA822009F3D8C /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				714DF783201DA822009F3D8C /* WeChatiOS_captain.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		714DF789201DA87A009F3D8C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				714DF798201DA87A009F3D8C /* WeChatRobot.h */,
+				714DF79D201DA87A009F3D8C /* TKRobotConfig.h */,
+				714DF78E201DA87A009F3D8C /* TKRobotConfig.m */,
+				714DF78B201DA87A009F3D8C /* zhIconLabel.h */,
+				714DF79A201DA87A009F3D8C /* zhIconLabel.m */,
+				714DF79C201DA87A009F3D8C /* TKToast.h */,
+				714DF78A201DA87A009F3D8C /* TKToast.m */,
+				714DF78C201DA87A009F3D8C /* TKMultiSelectContactsViewController.h */,
+				714DF79B201DA87A009F3D8C /* TKMultiSelectContactsViewController.m */,
+				714DF78D201DA87A009F3D8C /* zhFullView.h */,
+				714DF799201DA87A009F3D8C /* zhFullView.m */,
+				714DF7A2201DA87A009F3D8C /* TKSettingViewController.h */,
+				714DF78F201DA87A009F3D8C /* TKSettingViewController.m */,
+				714DF7A1201DA87A009F3D8C /* UIView+Layout.h */,
+				714DF790201DA87A009F3D8C /* UIView+Layout.m */,
+				714DF792201DA87A009F3D8C /* TKEditViewController.h */,
+				714DF7A0201DA87A009F3D8C /* TKEditViewController.m */,
+				714DF79F201DA87A009F3D8C /* TKChatRoomSensitiveViewController.h */,
+				714DF793201DA87A009F3D8C /* TKChatRoomSensitiveViewController.m */,
+				714DF794201DA87A009F3D8C /* UIScreen+Extend.h */,
+				714DF79E201DA87A009F3D8C /* UIScreen+Extend.m */,
+				714DF7A5201DA87A009F3D8C /* UIColor+Extend.h */,
+				714DF795201DA87A009F3D8C /* UIColor+Extend.m */,
+				714DF7A4201DA87A009F3D8C /* EmoticonGameCheat.h */,
+				714DF796201DA87A009F3D8C /* EmoticonGameCheat.m */,
+				714DF7A3201DA87A009F3D8C /* zhPopupController.h */,
+				714DF797201DA87A009F3D8C /* zhPopupController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		714DF770201DA822009F3D8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714DF7BA201DA87A009F3D8C /* TKChatRoomSensitiveViewController.h in Headers */,
+				714DF7B8201DA87A009F3D8C /* TKRobotConfig.h in Headers */,
+				714DF7AD201DA87A009F3D8C /* TKEditViewController.h in Headers */,
+				714DF7BC201DA87A009F3D8C /* UIView+Layout.h in Headers */,
+				714DF7AF201DA87A009F3D8C /* UIScreen+Extend.h in Headers */,
+				714DF7A9201DA87A009F3D8C /* zhFullView.h in Headers */,
+				714DF7A7201DA87A009F3D8C /* zhIconLabel.h in Headers */,
+				714DF7BF201DA87A009F3D8C /* EmoticonGameCheat.h in Headers */,
+				714DF7A8201DA87A009F3D8C /* TKMultiSelectContactsViewController.h in Headers */,
+				714DF7B3201DA87A009F3D8C /* WeChatRobot.h in Headers */,
+				714DF7C0201DA87A009F3D8C /* UIColor+Extend.h in Headers */,
+				714DF7BD201DA87A009F3D8C /* TKSettingViewController.h in Headers */,
+				714DF7B7201DA87A009F3D8C /* TKToast.h in Headers */,
+				714DF7BE201DA87A009F3D8C /* zhPopupController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714DF772201DA822009F3D8C /* WeChatiOS_captain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714DF786201DA822009F3D8C /* Build configuration list for PBXNativeTarget "WeChatiOS_captain" */;
+			buildPhases = (
+				714DF76E201DA822009F3D8C /* Sources */,
+				714DF76F201DA822009F3D8C /* Frameworks */,
+				714DF770201DA822009F3D8C /* Headers */,
+				714DF771201DA822009F3D8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatiOS_captain;
+			productName = WeChatiOS_captain;
+			productReference = 714DF773201DA822009F3D8C /* WeChatiOS_captain.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		714DF76A201DA822009F3D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					714DF772201DA822009F3D8C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 714DF76D201DA822009F3D8C /* Build configuration list for PBXProject "WeChatiOS_captain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 714DF769201DA822009F3D8C;
+			productRefGroup = 714DF774201DA822009F3D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				714DF772201DA822009F3D8C /* WeChatiOS_captain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		714DF771201DA822009F3D8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714DF76E201DA822009F3D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714DF7AB201DA87A009F3D8C /* TKSettingViewController.m in Sources */,
+				714DF7AA201DA87A009F3D8C /* TKRobotConfig.m in Sources */,
+				714DF7A6201DA87A009F3D8C /* TKToast.m in Sources */,
+				714DF7B1201DA87A009F3D8C /* EmoticonGameCheat.m in Sources */,
+				714DF7B6201DA87A009F3D8C /* TKMultiSelectContactsViewController.m in Sources */,
+				714DF7B9201DA87A009F3D8C /* UIScreen+Extend.m in Sources */,
+				714DF7B5201DA87A009F3D8C /* zhIconLabel.m in Sources */,
+				714DF7AE201DA87A009F3D8C /* TKChatRoomSensitiveViewController.m in Sources */,
+				714DF7B4201DA87A009F3D8C /* zhFullView.m in Sources */,
+				714DF7BB201DA87A009F3D8C /* TKEditViewController.m in Sources */,
+				714DF7B2201DA87A009F3D8C /* zhPopupController.m in Sources */,
+				714DF7B0201DA87A009F3D8C /* UIColor+Extend.m in Sources */,
+				714DF7AC201DA87A009F3D8C /* UIView+Layout.m in Sources */,
+				714DF77F201DA822009F3D8C /* WeChatiOS_captain.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		714DF784201DA822009F3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"WeChatiOS_captain\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		714DF785201DA822009F3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"WeChatiOS_captain\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		714DF787201DA822009F3D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC5VANDM7B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChatiOS_captain",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeChatiOS_captain/WeChatiOS_captain-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		714DF788201DA822009F3D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MC5VANDM7B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChatiOS_captain",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeChatiOS_captain/WeChatiOS_captain-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		714DF76D201DA822009F3D8C /* Build configuration list for PBXProject "WeChatiOS_captain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714DF784201DA822009F3D8C /* Release */,
+				714DF785201DA822009F3D8C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		714DF786201DA822009F3D8C /* Build configuration list for PBXNativeTarget "WeChatiOS_captain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				714DF787201DA822009F3D8C /* Release */,
+				714DF788201DA822009F3D8C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 714DF76A201DA822009F3D8C /* Project object */;
+}

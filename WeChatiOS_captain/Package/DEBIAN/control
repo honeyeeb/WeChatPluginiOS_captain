@@ -1,0 +1,17 @@
+Package: com.honey.WeChatiOS-captain
+Name: WeChatiOS_captain
+Version: 0.1-1
+Description: WeChat iOS simple Tweaks
+Section: Tweaks
+Depends: firmware (>= 5.0)
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: honeyeeb
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
