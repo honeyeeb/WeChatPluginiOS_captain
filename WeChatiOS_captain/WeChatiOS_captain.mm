@@ -20,7 +20,7 @@
 #import "WeChatRobot.h"
 #import "TKSettingViewController.h"
 #import "EmoticonGameCheat.h"
-//#import "FLEXManager.h"
+#import "FLEXManager.h"
 
 // Objective-C runtime hooking using CaptainHook:
 //   1. declare class using CHDeclareClass()
@@ -309,8 +309,8 @@ CHOptimizedMethod(0, self, void, NewSettingViewController, reloadTableData) {
     MMTableViewSectionInfo *sectionInfo = [objc_getClass("MMTableViewSectionInfo") sectionInfoDefaut];
     MMTableViewCellInfo *settingCell = [objc_getClass("MMTableViewCellInfo") normalCellForSel:@selector(assistenceSetting) target:self title:@"微信小助手" accessoryType:1];
     [sectionInfo addCell:settingCell];
-//    MMTableViewCellInfo *flexCell = [NSClassFromString(@"MMTableViewCellInfo") normalCellForSel:@selector(enableFlex) target:self title:@"FLEX" accessoryType:1];
-//    [sectionInfo addCell:flexCell];
+    MMTableViewCellInfo *flexCell = [NSClassFromString(@"MMTableViewCellInfo") normalCellForSel:@selector(enableFlex) target:self title:@"FLEX" accessoryType:1];
+    [sectionInfo addCell:flexCell];
     [tableViewInfo insertSection:sectionInfo At:0];
     MMTableView *tableView = [tableViewInfo getTableView];
     [tableView reloadData];
@@ -321,10 +321,10 @@ CHDeclareMethod(0, void, NewSettingViewController, assistenceSetting) {
     [self.navigationController PushViewController:settingViewController animated:YES];
 }
 
-//CHDeclareMethod(0, void, NewSettingViewController, enableFlex) {
-//
-//    [[FLEXManager sharedManager] showExplorer];
-//}
+CHDeclareMethod(0, void, NewSettingViewController, enableFlex) {
+
+    [[objc_getClass("FLEXManager") sharedManager] showExplorer];
+}
 
 CHDeclareClass(WCDeviceStepObject)
 CHOptimizedMethod(0, self, NSInteger, WCDeviceStepObject, m7StepCount) {
@@ -384,7 +384,7 @@ CHConstructor // code block that runs immediately upon load
         CHLoadLateClass(NewSettingViewController);
         CHHook0(NewSettingViewController, reloadTableData);
         CHHook0(NewSettingViewController, assistenceSetting);
-//        CHHook0(NewSettingViewController, enableFlex);
+        CHHook0(NewSettingViewController, enableFlex);
         CHLoadLateClass(WCDeviceStepObject);
         CHHook0(WCDeviceStepObject, m7StepCount);
         CHHook0(WCDeviceStepObject, hkStepCount);
